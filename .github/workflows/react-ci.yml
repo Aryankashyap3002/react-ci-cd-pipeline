@@ -26,6 +26,9 @@ jobs:
       - name: "List repository"
         run: ls
 
+      - name: "Run Lint"
+        run: npm run lint
+
       - name: "run test"
         run: npm test
 
